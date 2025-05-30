@@ -22,7 +22,9 @@
   }
   .logo {
     height: 50px;
-    filter: brightness(0) invert(1);
+    width: auto;
+    margin-right: 2rem; /* Adjust as needed */
+    transition: transform 0.3s;
   }
   nav a {
     margin-left: 1.5rem;
